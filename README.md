@@ -1,6 +1,7 @@
+
 # 🖌️ MNIST Digit Classifier with Drawing GUI
 
-This project uses a neural network trained on the MNIST dataset to recognize handwritten digits. The user can draw a digit in the app's GUI and it will predict what digit the user wrote.
+This project uses a neural network trained on the MNIST dataset to recognize handwritten digits. You can draw a digit in the app's GUI and it will predict what digit you wrote — live!
 
 ## 🚀 Features
 
@@ -22,3 +23,42 @@ Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## 📂 File Descriptions
+
+| File              | Description                            |
+|-------------------|----------------------------------------|
+| `train_model.py`  | Trains the neural network model        |
+| `gui_predictor.py`| GUI app for drawing + prediction       |
+| `mnist_train.csv` | Training data (download from Kaggle)   |
+| `mnist_test.csv`  | Testing data (download from Kaggle)    |
+| `requirements.txt`| Required Python packages               |
+
+## 📊 Dataset
+
+Download the CSV-formatted MNIST dataset from Kaggle:  
+🔗 https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
+
+## 🎮 Usage
+
+1. Download the CSV files into the project folder.
+2. Run the training script:
+
+```bash
+python train_model.py
+```
+
+3. Once trained, run the GUI:
+
+```bash
+python gui_predictor.py
+```
+
+Draw a digit, click **Predict**, and see the result!
+
+## 📝 To Do
+
+- [ ] Add saving of misclassified user input
+- [ ] Deploy as a web app using Streamlit or Flask
+- [ ] Add CNN-based upgrade for better accuracy
