@@ -3,6 +3,8 @@
 
 This project uses a neural network trained on the MNIST dataset to recognize handwritten digits. You can draw a digit in the app's GUI and it will predict what digit you wrote — live!
 
+(mnist_train.csv is larger than github upload limit, download from kaggle)
+
 ## 🚀 Features
 
 - Simple neural network trained from CSV-based MNIST dataset
