@@ -22,7 +22,7 @@ This project uses a neural network trained on the MNIST dataset to recognize han
 Install dependencies with:
 
 ```bash
-pip install -r requirements.txt
+pip install tensorflow numpy pandas scikit-learn pillow
 ```
 
 ## 📂 File Descriptions
@@ -56,9 +56,3 @@ python gui_predictor.py
 ```
 
 Draw a digit, click **Predict**, and see the result!
-
-## 📝 To Do
-
-- [ ] Add saving of misclassified user input
-- [ ] Deploy as a web app using Streamlit or Flask
-- [ ] Add CNN-based upgrade for better accuracy
